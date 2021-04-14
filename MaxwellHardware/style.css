@@ -1,0 +1,193 @@
+body {
+  font-family: 'Helvetica Neue Bold', 'Gotham Bold', sans-serif;
+}
+
+.justify {
+  text-align: center;
+}
+
+.navbar-black {
+  background-color: #383838;
+  width: 100%;
+  height: 15vh;
+}
+
+.user-access {
+  height: 100%;
+  width: 80%;
+  padding-left: 3%;
+  padding-right: 3%;
+}
+
+.logo-link {
+  height: 100%;
+}
+
+.wide-link {
+  width: fit-content;
+}
+
+.nav-icon {
+  height: 100%;
+  width: 100%;
+  fill: #888;
+  padding: 5px;
+}
+
+.nav-icon-variant {
+  height: 100%;
+  fill: #888;
+  padding: 5px;
+}
+
+.icon-link {
+  width: 25%;
+  max-width: 45px;
+}
+
+.pink {
+  fill: #d35266;
+  color: #d35266;
+}
+
+.gray {
+  fill: #888;
+  color: #888;
+}
+
+.dark {
+  fill: #383838;
+  color: #383838;
+}
+
+.white {
+  fill: #f8f8f8;
+  color: #f8f8f8;
+}
+
+.bc-pink {
+  background-color: #d35266;
+  border-color: #d35266;
+}
+
+.pink-link {
+  color: #d35266;
+  text-decoration: none;
+}
+
+.pink-link:hover {
+  color: #d35266;
+}
+
+.gray-link {
+  color: #888;
+  text-decoration: none;
+}
+
+.gray-link:hover {
+  color: #888;
+}
+
+.carousel-control-prev {
+  position: absolute;
+  top: 5vh;
+  right: 10vw;
+}
+
+.filter-banner {
+  background: linear-gradient(rgba(211, 82, 102, 0.45), rgba(211, 82, 102, 0.45)), url("../resources/banner-bck.webp");
+  background-size: cover;
+}
+
+.categories {
+  background-color: #ddd;
+  padding: 20px;
+}
+
+.footer {
+  margin-left: auto;
+  margin-right: auto;
+  width: 70%;
+}
+
+.fix-size {
+  width: 30vw;
+}
+
+.carousel-width {
+  width: 100%;
+}
+
+.dynamic-card {
+  width: 100%;
+}
+
+.dropdown-toggle::after {
+  content: none;
+}
+
+.dropdown-item:hover {
+  background-color: #383838;
+  color: #f8f8f8;
+}
+
+.two-cols {
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+  width: 90%;
+  margin: 2% auto 2% auto;
+}
+
+.search-filters {
+  grid-column: 1/2;
+  display: flex;
+  flex-direction: column;
+  border-right-color: #888;
+  border-right-style: solid;
+  border-right-width: 1px;
+  width: 100%;
+}
+
+.results {
+  grid-column: 2/3;
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+}
+
+.new-old {
+  display: flex;
+  justify-content: space-between;
+  width: 80%;
+}
+
+.search-brand,
+.search-price,
+.search-type {
+  display: flex;
+  flex-direction: column;
+  justify-items: flex-end;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  width: 100%;
+}
+
+label {
+  width: fit-content;
+  margin-left: 3px;
+  margin-right: 3px;
+}
+
+.card {
+  background-color: rgba(0, 0, 0, 0);
+}
+
+@media screen and (min-width: 768px) {
+  .carousel-width {
+    width: 75%;
+  }
+
+  .fix-size {
+    width: 20vw;
+  }
+}
