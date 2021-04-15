@@ -9,7 +9,11 @@ body {
 .navbar-black {
   background-color: #383838;
   width: 100%;
-  height: 15vh;
+  height: 10vh;
+}
+
+.font-size {
+  font-size: 0.7em;
 }
 
 .user-access {
@@ -95,7 +99,7 @@ body {
 }
 
 .filter-banner {
-  background: linear-gradient(rgba(211, 82, 102, 0.45), rgba(211, 82, 102, 0.45)), url("resources/banner-bck.webp");
+  background: linear-gradient(rgba(211, 82, 102, 0.45), rgba(211, 82, 102, 0.45)), url("../resources/banner-bck.webp");
   background-size: cover;
 }
 
@@ -104,10 +108,22 @@ body {
   padding: 20px;
 }
 
+footer {
+  display: flex;
+  height: 50vh;
+  width: 100%;
+  font-size: 10px;
+}
+
+.footer-logo {
+  width: 12vw;
+}
+
 .footer {
   margin-left: auto;
   margin-right: auto;
   width: 70%;
+  height: 50vh;
 }
 
 .fix-size {
@@ -132,13 +148,16 @@ body {
 }
 
 .two-cols {
-  display: grid;
-  grid-template-columns: 1fr 3fr;
-  width: 90%;
-  margin: 2% auto 2% auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.title {
+  width: 90vw;
 }
 
 .search-filters {
+  font-size: 10px;
   grid-column: 1/2;
   display: flex;
   flex-direction: column;
@@ -164,9 +183,7 @@ body {
 .search-brand,
 .search-price,
 .search-type {
-  display: flex;
-  flex-direction: column;
-  justify-items: flex-end;
+  display: block;
   margin-top: 10px;
   margin-bottom: 10px;
   width: 100%;
@@ -189,5 +206,31 @@ label {
 
   .fix-size {
     width: 20vw;
+  }
+
+  .search-filters {
+    font-size: 1em;
+  }
+
+  .two-cols {
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    width: 90%;
+    margin: 2% auto 2% auto;
+  }
+
+  .search-brand,
+  .search-price,
+  .search-type {
+    display: flex;
+    flex-direction: column;
+    justify-items: flex-end;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 100%;
+  }
+
+  .title {
+    width: fit-content;
   }
 }
