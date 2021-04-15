@@ -99,7 +99,7 @@ body {
 }
 
 .filter-banner {
-  background: linear-gradient(rgba(211, 82, 102, 0.45), rgba(211, 82, 102, 0.45)), url("../resources/banner-bck.webp");
+  background: linear-gradient(rgba(211, 82, 102, 0.45), rgba(211, 82, 102, 0.45)), url("resources/banner-bck.webp");
   background-size: cover;
 }
 
