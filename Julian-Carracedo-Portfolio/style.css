@@ -1,0 +1,135 @@
+.julian-gray {
+  background-color: rgb(14, 14, 17);
+}
+
+.julian-light-gray {
+  background-color: rgb(99, 98, 129);
+}
+
+.julian-light-green {
+    color: rgb(8, 207, 28);
+    fill: rgb(8, 207, 28);
+}
+
+.julian-dark-green {
+    color: rgb(17, 121, 27);
+    fill: rgb(17, 121, 27);
+}
+
+.nav-link {
+    text-decoration: none;
+}
+
+.nav-link:hover {
+    color: rgb(0, 255, 26);
+    
+}
+
+.nav-alter {
+    width: fit-content;
+    height: fit-content;
+    transition-duration: 0.5s;
+}
+
+.tags {
+    align-items: center;
+}
+
+.nav-alter:hover {
+    border-left-width: 1px;
+    border-left-color: rgb(0, 255, 26);
+    border-left-style: solid;
+
+    border-bottom-width: 1px;
+    border-bottom-color: rgb(0, 255, 26);
+    border-bottom-style: solid;
+}
+
+
+.logo {
+    height: 10vh;
+    background-color: rgba(14, 187, 32,0);
+    border-radius: 50%;
+    transition-duration: 1s;
+}
+
+.logo:hover {
+    transform: rotate(180deg);
+    background-color: rgb(0, 255, 26);
+    box-shadow: 0px 0px 2px 3px rgb(0, 255, 26);
+}
+
+body {
+    font-family: 'Roboto', 'Arial', 'serif-sans';
+}
+
+.intro {
+    margin-top: 20vh;
+    border-radius: 10px;
+    background:  radial-gradient(rgb(61, 61, 73), rgba(61, 61, 73, 0.1) );
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.bg-custom {
+    background:  radial-gradient(rgb(61, 61, 73), rgba(61, 61, 73, 0.1) );
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.media-icon {
+    fill:  rgb(61, 61, 73);
+    margin-left: 5px;
+    margin-right: 5px;
+    transition-duration: 0.5s;
+}
+
+.media-icon:hover {
+    fill:rgb(0, 255, 26)
+}
+
+.my-button {
+    text-decoration: none;
+    color:#fff;
+    padding: 6px;
+}
+
+.core-posts {
+    padding-top: 5%;
+    width: 100%;
+    height: 60vh;
+}
+
+.core-posted {
+    height: 25vh;
+}
+
+.core-pic {
+    height: 65%;
+}
+
+.stack-used {
+    background-color: rgb(99, 98, 129);
+    width: fit-content;
+    padding: 2px;
+    color: rgb(14, 14, 17);
+}
+
+.fix-h {
+    height: 30vh;
+    margin-left: 5%;
+}
+
+.my-stack {
+    border-left-width: 2px;
+    border-left-color: rgb(0, 255, 26);
+    border-left-style: solid;
+}
+
+form {
+    width: 50%;
+}
+
+.last-list {
+    margin-left: 45%;
+}
