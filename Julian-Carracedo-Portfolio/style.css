@@ -101,7 +101,7 @@ body {
 }
 
 .core-posted {
-    height: 25vh;
+    height: 30vh;
 }
 
 .core-pic {
@@ -128,8 +128,40 @@ body {
 
 form {
     width: 50%;
+    height: 60vh;
+}
+
+textarea {
+    margin-left: 10px;
+    margin-bottom: 20px;
+    height: 20vh;
+    width: 100%;
 }
 
 .last-list {
     margin-left: 45%;
+}
+
+@media screen and (max-width: 992px) {
+    .core-posts {
+        height: max-content;
+    }
+
+    .media-icon {
+        width: 40px;
+        height: 40px;
+    }
+
+    .last-list {
+        margin-left: 40%;
+    }
+
+    label, input, textarea{
+        font-size: 20px;
+        width: 100%
+    }
+
+    form {
+        width: 100%;
+    }
 }
