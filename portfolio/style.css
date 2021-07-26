@@ -1,0 +1,166 @@
+@font-face {
+    font-family: LeagueSpartan;
+    font-weight: bold;
+    src: url("./lib/LeagueSpartan-Bold.otf") format("opentype");
+}
+
+.white-ish {
+    background-color:rgb(240, 234, 234)
+}
+
+.white-ish-fc{
+    color:rgb(240, 234, 234)
+}
+
+.green {
+    background-color: rgb(39, 199, 65)
+}
+
+.green-faded {
+    background-color: rgba(39, 199, 65, 0.7);
+    border-radius: 5px;
+}
+
+.green-fc{
+    color: rgb(39, 199, 65)
+}
+
+.dark-fc{
+    color: #111;
+}
+
+.black {
+    background-color: #111
+}
+
+.inner {
+    width: 80%;
+    border-radius: 10px;
+    margin-top: 24px;
+    margin-bottom: 60px;
+}
+
+.h-fixed {
+    height: 35vh;
+}
+
+.logo {
+    height: 10vh;
+    background-color: rgba(47, 241, 67, 0);
+    border-radius: 50%;
+    transition-duration: 1s;
+}
+
+.logo:hover {
+    transform: rotate(180deg);
+    background-color: rgba(47, 241, 67, 1);
+}
+
+.outer {
+    display: flex;
+    padding: 20px;
+    height: 100vh;
+}
+
+.league {
+    font-family: LeagueSpartan, sans-serif;
+}
+
+.roboto {
+    font-family: Roboto, arial, sans-serif;
+}
+
+.nav-link{
+    color: #111;
+    font-weight: bold;
+    font-size: 1.2em;
+    transition: 0.5s;
+    margin: 3px 0 3px 0;
+    border-radius: 5px;
+}
+
+.media-icon {
+    fill: #111;
+    width: 30px;
+    height: 30px;
+    transition: 0.2s;
+}
+
+.card {
+    background-color: rgba(47, 241, 67, 0);
+}
+
+.media-icon:hover {
+    fill: white;
+    width: 30px;
+    height: 30px;
+}
+
+.nav-link:hover {
+    color: #111;
+    background-color: rgba(47, 241, 67, 0.918);
+}
+
+.featured-img{
+   background: url("/lib/lifestyle.PNG");
+   background-size: cover;
+   height: 90vh;
+   width: 90vw;
+   border-width: 4px;
+   border-style: solid;
+   border-radius: 5px;
+   border-color: #111;
+}
+
+.github-btn {
+    background-color: #999;
+    color: #111;
+    border-radius: 3px;
+    padding: 3px;
+    margin: 2px;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.github-btn:hover {
+    background-color: white;
+    color: #111;
+}
+
+.demo-btn {
+    text-decoration: none;
+    background-color: #111;
+    border-radius: 3px;
+    color: white;
+    padding: 3px;
+    margin: 2px;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.demo-btn:hover {
+    background-color: rgb(25, 129, 43);
+    color: white;
+}
+
+.tag {
+    width: fit-content;
+    padding: 1px;
+}
+
+.parallax {
+
+    background-image: url("./lib/dark-cartoon-bg-export.jpg");
+    min-height: 1000px;
+
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .card-footer {
+      width: 50vw;
+      height: 5px;
+  }
+
