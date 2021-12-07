@@ -104,13 +104,28 @@
 .featured-img{
    background: url("./lib/lifestyle.PNG");
    background-size: cover;
-   height: 90vh;
-   width: 90vw;
+   width: 85vw;
    border-width: 4px;
    border-style: solid;
    border-radius: 5px;
    border-color: #111;
+   margin-left: auto;
+   margin-right: auto;
 }
+
+.featured-img-2{
+    background: url("./lib/covid_observatory.png");
+    background-size:contain;
+    background-repeat: no-repeat;
+    width: 30vw;
+    height: max-content;
+    border-width: 4px;
+    border-style: solid;
+    border-radius: 5px;
+    border-color: #111;
+    margin-left: auto;
+    margin-right: auto;
+ }
 
 .github-btn {
     background-color: #999;
@@ -164,3 +179,24 @@
       height: 5px;
   }
 
+  .pic {
+      height: 18%;
+  }
+
+@media screen and (max-width: 991px) {
+    .h-fixed {
+        height: 100vh;
+    }
+    .pic {
+        height: 30vh;
+    }
+    .left {
+        height: min-content;
+    }
+}
+
+@media screen and (max-width: 575px) {
+    .pic {
+        height: 25vh;
+    }
+}
