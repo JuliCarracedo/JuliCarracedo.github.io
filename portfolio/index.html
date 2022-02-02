@@ -174,20 +174,25 @@
         <h2 class="green-fc league fw-bold mt-5">CONTACT ME</h2>
         <h4 class="white-ish-fc mt-5"> I'm open for collaborations, so please contact me if you are interested in working with me!
 
-          <form class="bg-custom green-faded row fs-6 p-5 mx-auto mt-5 w-50" >
-            <div class="col-6">
-              <label for="fname" class="dark-fc">First name:</label><br>
-              <input type="text" id="fname" name="fname"><br>
-              <label for="lname"  class="dark-fc">Last name:</label><br>
-              <input type="text" id="lname" name="lname"><br>
-              <label for="email"  class="dark-fc">E-mail:</label><br>
-              <input type="email" id="email" name="email"><br>
-            </div>
-            <div class="col-6">
-              <textarea name="message" placeholder="Leave your message here"></textarea>
-            </div>
-            <button type="button" class="demo-btn w-25 mx-auto">Submit</button>
-          </form>
+            <form
+            action="https://formspree.io/f/mqknejwk"method="POST" autocomplete="off" id="contact-form" class="form-column container-fluid w-75 green-faded dark-fc d-flex flex-column p-5 mt-5">      
+
+              <div class="div-form container d-flex flex-column w-100 text-center">
+                <label for="name">
+                  <span class="legend">Name</span>
+                  <input type="text" name="name" id="name" autocomplete="name" placeholder="Enter Your Full Name" required>
+                </label>
+                <label for="email">
+                  <span class="legend">Email</span>
+                  <input type="email" name="email" id="email" autocomplete="email" placeholder="Enter Your Email" required>
+                </label>
+                <label for="message">
+                  <span class="legend">Message</span>
+                  <Textarea type="text" name="name" id="message" autocomplete="off" rows="5" required placeholder="Let me know what I can help you with."></Textarea>
+                </label>
+                <button class="demo-btn" type="submit">Submit</button>
+              </div>
+            </form>
           
           <ul class="list-unstyled d-flex flex-row justify-content-around w-25 mt-5 mx-auto px-5">
             <li><a  href="https://www.linkedin.com/in/julian-carracedo" rel="noopener noreferrer" target="_blank" ><svg class="media-icon" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M12 0c-6.627 0-12 5.373-12 12s5.373 12 12 12 12-5.373 12-12-5.373-12-12-12zm-2 16h-2v-6h2v6zm-1-6.891c-.607 0-1.1-.496-1.1-1.109 0-.612.492-1.109 1.1-1.109s1.1.497 1.1 1.109c0 .613-.493 1.109-1.1 1.109zm8 6.891h-1.998v-2.861c0-1.881-2.002-1.722-2.002 0v2.861h-2v-6h2v1.093c.872-1.616 4-1.736 4 1.548v3.359z"/></svg></a></li>
