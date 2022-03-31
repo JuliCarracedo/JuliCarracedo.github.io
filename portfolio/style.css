@@ -196,6 +196,14 @@
       width: 25vw;
   }
 
+  .light-media-icon {
+      fill: #888;
+  }
+
+  .light-media-icon:hover {
+    fill: #fff;
+}
+
 @media screen and (max-width: 991px) {
     .h-fixed {
         height: 100vh;
