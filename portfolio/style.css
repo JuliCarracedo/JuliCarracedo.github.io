@@ -193,6 +193,7 @@
   }
   .pic {
       height: 20vh;
+      width: 25vw;
   }
 
 @media screen and (max-width: 991px) {
@@ -201,6 +202,7 @@
     }
     .pic {
         height: 30vh;
+        width: 30vw;
     }
     .left {
         height: min-content;
